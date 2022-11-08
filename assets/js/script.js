@@ -3,6 +3,7 @@ const viewcurrentDay = document.querySelector('#currentDay');
 const currentday= moment();
 viewcurrentDay.textContent = currentday.format('LLL');
 var currentHour = parseInt(moment().format("H"));
+console.log(currentHour)
 
 
 let timeBlock = $(".time-block").addClass('row');
@@ -47,9 +48,9 @@ $( window ).on( "load", function() {
 });
        
    
-$(".description").each(function () {
+$(".table input[id]").each(function () {
     var $this = $(this);
-    var id = parseInt($this.attr("id"));
+    var id = parseInt($($this).attr("id") );
   
   if (id < currentHour){
   $(this).addClass("past");
@@ -63,8 +64,8 @@ $(".description").each(function () {
   $(this).addClass("future")
   }
   
-  else {
-    $(this).removeClass("past");
+  else if(id === currentHour) {
+  $(this).removeClass("past");
   $(this).addClass("present")
   $(this).removeClass("future")
   }

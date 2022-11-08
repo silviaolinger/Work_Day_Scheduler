@@ -45,7 +45,7 @@ body {
   }
   
   .past {
-    background-color: #d3d3d3;
+    background-color: #a3a3a3;
     color: white;
   }
   
@@ -87,8 +87,7 @@ input[type=text]{
   border-radius: 4px;
   box-sizing: border-box;
 }
-    max-height: max-content;
-    
-}
   
+    
+
   
