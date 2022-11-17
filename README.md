@@ -1,6 +1,6 @@
 # Work Day Scheduler
 --repository
-![]https://https://github.com/silviaolinger
+![]https://github.com/silviaolinger
 -- deployed application
 ![]https://silviaolinger.github.io/Work_Day_Scheduler/
 ## Description
