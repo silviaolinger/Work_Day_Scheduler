@@ -33,3 +33,7 @@ Once it saved, it will store in their local storage.
 This calendar is desktop and mobile compatible.
 
 ## Display Screen
+***After 5PM***
+![](/assets/images/Work_day_Scheduler.png)
+
+*** Events Between 8 am to 5 PM**
