@@ -1,5 +1,8 @@
 # Work Day Scheduler
+--repository
 ![]https://https://github.com/silviaolinger
+-- deployed application
+![]https://silviaolinger.github.io/Work_Day_Scheduler/
 ## Description
 a simple calendar application that allows a user to save events for each hour of the day. It runs in the browser and feature dynamically updated HTML and CSS powered by jQuery.
 
